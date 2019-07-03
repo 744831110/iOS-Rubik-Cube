@@ -14,6 +14,14 @@
 		0D72B6B522C1CDC7001C303B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D72B6B322C1CDC7001C303B /* LaunchScreen.storyboard */; };
 		0D72B6C022C1CDC7001C303B /* magicCudeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D72B6BF22C1CDC7001C303B /* magicCudeTests.swift */; };
 		0D72B6CB22C1CDC7001C303B /* magicCudeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D72B6CA22C1CDC7001C303B /* magicCudeUITests.swift */; };
+		0DE7049722CC5934001CB6FD /* MagicCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7049522CC5934001CB6FD /* MagicCube.swift */; };
+		0DE7049822CC5934001CB6FD /* MagicCubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7049622CC5934001CB6FD /* MagicCubeViewController.swift */; };
+		0DE704EB22CC5A0A001CB6FD /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DE704DB22CC5A09001CB6FD /* search.c */; };
+		0DE704EC22CC5A0A001CB6FD /* coordcube.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DE704E622CC5A09001CB6FD /* coordcube.c */; };
+		0DE704ED22CC5A0A001CB6FD /* cubiecube.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DE704E722CC5A09001CB6FD /* cubiecube.c */; };
+		0DE704EE22CC5A0A001CB6FD /* facecube.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DE704E822CC5A0A001CB6FD /* facecube.c */; };
+		0DE704EF22CC5A0A001CB6FD /* prunetable_helpers.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DE704E922CC5A0A001CB6FD /* prunetable_helpers.c */; };
+		0DE704F022CC5A0A001CB6FD /* solve.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DE704EA22CC5A0A001CB6FD /* solve.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,24 @@
 		0D72B6C622C1CDC7001C303B /* magicCudeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicCudeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D72B6CA22C1CDC7001C303B /* magicCudeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magicCudeUITests.swift; sourceTree = "<group>"; };
 		0D72B6CC22C1CDC7001C303B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE7049522CC5934001CB6FD /* MagicCube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicCube.swift; sourceTree = "<group>"; };
+		0DE7049622CC5934001CB6FD /* MagicCubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicCubeViewController.swift; sourceTree = "<group>"; };
+		0DE704DA22CC5A09001CB6FD /* magicCude-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "magicCude-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DE704DB22CC5A09001CB6FD /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = search.c; sourceTree = "<group>"; };
+		0DE704DD22CC5A09001CB6FD /* facecube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facecube.h; sourceTree = "<group>"; };
+		0DE704DE22CC5A09001CB6FD /* edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = edge.h; sourceTree = "<group>"; };
+		0DE704DF22CC5A09001CB6FD /* prunetable_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prunetable_helpers.h; sourceTree = "<group>"; };
+		0DE704E022CC5A09001CB6FD /* cubiecube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cubiecube.h; sourceTree = "<group>"; };
+		0DE704E122CC5A09001CB6FD /* facelet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facelet.h; sourceTree = "<group>"; };
+		0DE704E222CC5A09001CB6FD /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		0DE704E322CC5A09001CB6FD /* corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = corner.h; sourceTree = "<group>"; };
+		0DE704E422CC5A09001CB6FD /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		0DE704E522CC5A09001CB6FD /* coordcube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coordcube.h; sourceTree = "<group>"; };
+		0DE704E622CC5A09001CB6FD /* coordcube.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coordcube.c; sourceTree = "<group>"; };
+		0DE704E722CC5A09001CB6FD /* cubiecube.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cubiecube.c; sourceTree = "<group>"; };
+		0DE704E822CC5A0A001CB6FD /* facecube.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = facecube.c; sourceTree = "<group>"; };
+		0DE704E922CC5A0A001CB6FD /* prunetable_helpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prunetable_helpers.c; sourceTree = "<group>"; };
+		0DE704EA22CC5A0A001CB6FD /* solve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = solve.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +123,10 @@
 		0D72B6A922C1CDC6001C303B /* magicCude */ = {
 			isa = PBXGroup;
 			children = (
+				0DE704D922CC59FF001CB6FD /* ckociemba */,
 				0D72B6AA22C1CDC6001C303B /* AppDelegate.swift */,
+				0DE7049522CC5934001CB6FD /* MagicCube.swift */,
+				0DE7049622CC5934001CB6FD /* MagicCubeViewController.swift */,
 				0D72B6AC22C1CDC6001C303B /* ViewController.swift */,
 				0D72B6AE22C1CDC6001C303B /* Main.storyboard */,
 				0D72B6B122C1CDC7001C303B /* Assets.xcassets */,
@@ -123,6 +152,37 @@
 				0D72B6CC22C1CDC7001C303B /* Info.plist */,
 			);
 			path = magicCudeUITests;
+			sourceTree = "<group>";
+		};
+		0DE704D922CC59FF001CB6FD /* ckociemba */ = {
+			isa = PBXGroup;
+			children = (
+				0DE704E622CC5A09001CB6FD /* coordcube.c */,
+				0DE704E722CC5A09001CB6FD /* cubiecube.c */,
+				0DE704E822CC5A0A001CB6FD /* facecube.c */,
+				0DE704DC22CC5A09001CB6FD /* include */,
+				0DE704E922CC5A0A001CB6FD /* prunetable_helpers.c */,
+				0DE704DB22CC5A09001CB6FD /* search.c */,
+				0DE704EA22CC5A0A001CB6FD /* solve.c */,
+				0DE704DA22CC5A09001CB6FD /* magicCude-Bridging-Header.h */,
+			);
+			path = ckociemba;
+			sourceTree = "<group>";
+		};
+		0DE704DC22CC5A09001CB6FD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0DE704DD22CC5A09001CB6FD /* facecube.h */,
+				0DE704DE22CC5A09001CB6FD /* edge.h */,
+				0DE704DF22CC5A09001CB6FD /* prunetable_helpers.h */,
+				0DE704E022CC5A09001CB6FD /* cubiecube.h */,
+				0DE704E122CC5A09001CB6FD /* facelet.h */,
+				0DE704E222CC5A09001CB6FD /* color.h */,
+				0DE704E322CC5A09001CB6FD /* corner.h */,
+				0DE704E422CC5A09001CB6FD /* search.h */,
+				0DE704E522CC5A09001CB6FD /* coordcube.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +253,7 @@
 				TargetAttributes = {
 					0D72B6A622C1CDC6001C303B = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					0D72B6BA22C1CDC7001C303B = {
 						CreatedOnToolsVersion = 10.2;
@@ -257,7 +318,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D72B6AD22C1CDC6001C303B /* ViewController.swift in Sources */,
+				0DE704F022CC5A0A001CB6FD /* solve.c in Sources */,
+				0DE704EE22CC5A0A001CB6FD /* facecube.c in Sources */,
+				0DE704EB22CC5A0A001CB6FD /* search.c in Sources */,
 				0D72B6AB22C1CDC6001C303B /* AppDelegate.swift in Sources */,
+				0DE7049722CC5934001CB6FD /* MagicCube.swift in Sources */,
+				0DE704EC22CC5A0A001CB6FD /* coordcube.c in Sources */,
+				0DE704ED22CC5A0A001CB6FD /* cubiecube.c in Sources */,
+				0DE7049822CC5934001CB6FD /* MagicCubeViewController.swift in Sources */,
+				0DE704EF22CC5A0A001CB6FD /* prunetable_helpers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFC5F8N5W8;
 				INFOPLIST_FILE = magicCude/Info.plist;
@@ -441,6 +511,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenqian.magicCude;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "magicCude/ckociemba/magicCude-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFC5F8N5W8;
 				INFOPLIST_FILE = magicCude/Info.plist;
@@ -459,6 +532,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chenqian.magicCude;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "magicCude/ckociemba/magicCude-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
